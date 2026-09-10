@@ -45,7 +45,7 @@ class TeamSeeder extends Seeder
              [
                 'id_team' => 5,
                 'name' => '☆. Dimas Abdul Rohman',
-                'role' => '☁️ QA, Documentation, and Testing',
+                'role' => '☁️ QA, Documentation, and Testing Area',
                 'photo' => 'dimas.jpg',
                 'created_at' => now(),
                 'updated_at' => now(),
