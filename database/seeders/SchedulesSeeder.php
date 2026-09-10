@@ -10,11 +10,10 @@ class SchedulesSeeder extends Seeder
     public function run(): void
     {
         DB::table('jadwal')->insert([
-            // Senin
             [
                 'id_jadwal' => 1,
                 'day' => 'Senin',
-                'subject' => 'Bahasa Indonesia',
+                'subject' => '♡. Bahasa Indonesia',
                 'jp' => '07.15 - 09.15',
                 'teacher' => 'Ibu Tita',
                 'created_at' => now(),
@@ -23,7 +22,7 @@ class SchedulesSeeder extends Seeder
             [
                 'id_jadwal' => 2,
                 'day' => 'Senin',
-                'subject' => 'Pai',
+                'subject' => '♡. Pai',
                 'jp' => '09.30 - 10.10',
                 'teacher' => 'Ibu Laela',
                 'created_at' => now(),
@@ -32,7 +31,7 @@ class SchedulesSeeder extends Seeder
             [
                 'id_jadwal' => 3,
                 'day' => 'Senin',
-                'subject' => 'Basis Data',
+                'subject' => '♡. Basis Data',
                 'jp' => '10.10 - 14.20',
                 'teacher' => 'Ibu Indri',
                 'created_at' => now(),
@@ -41,17 +40,17 @@ class SchedulesSeeder extends Seeder
             [
                 'id_jadwal' => 4,
                 'day' => 'Senin',
-                'subject' => 'B. Jerman',
+                'subject' => '♡. B. Jerman',
                 'jp' => '14.20 - 15.00',
                 'teacher' => 'Pak Abdul',
                 'created_at' => now(),
                 'updated_at' => now(),
             ],
-            // Selasa
+            
             [
                 'id_jadwal' => 5,
                 'day' => 'Selasa',
-                'subject' => 'Pai',
+                'subject' => '♡. Pai',
                 'jp' => '07.15 - 08.35',
                 'teacher' => 'Ibu Laela',
                 'created_at' => now(),
@@ -60,7 +59,7 @@ class SchedulesSeeder extends Seeder
             [
                 'id_jadwal' => 6,
                 'day' => 'Selasa',
-                'subject' => 'Matematika',
+                'subject' => '♡. Matematika',
                 'jp' => '08.35 - 10.10',
                 'teacher' => 'Pak Acun',
                 'created_at' => now(),
@@ -69,7 +68,7 @@ class SchedulesSeeder extends Seeder
             [
                 'id_jadwal' => 7,
                 'day' => 'Selasa',
-                'subject' => 'Pancasila',
+                'subject' => '♡. Pancasila',
                 'jp' => '10.10 - 11.30',
                 'teacher' => 'Ibu Vanny',
                 'created_at' => now(),
@@ -93,11 +92,11 @@ class SchedulesSeeder extends Seeder
                 'created_at' => now(),
                 'updated_at' => now(),
             ],
-            // Rabu
+        
             [
                 'id_jadwal' => 10,
                 'day' => 'Rabu',
-                'subject' => 'Kewirausahaan',
+                'subject' => '♡. Kewirausahaan',
                 'jp' => '07.15 - 11.30',
                 'teacher' => 'Pak Gunawan',
                 'created_at' => now(),
@@ -115,7 +114,7 @@ class SchedulesSeeder extends Seeder
             [
                 'id_jadwal' => 12,
                 'day' => 'Rabu',
-                'subject' => 'Kewirausahaan',
+                'subject' => '♡. Kewirausahaan',
                 'jp' => '10.10 - 11.30',
                 'teacher' => 'Pak Gunawan',
                 'created_at' => now(),
@@ -124,17 +123,17 @@ class SchedulesSeeder extends Seeder
             [
                 'id_jadwal' => 13,
                 'day' => 'Rabu',
-                'subject' => 'Perangkat Bergerak',
+                'subject' => '♡. Perangkat Bergerak',
                 'jp' => '11.30 - 15.00',
                 'teacher' => 'Pak Gunawan',
                 'created_at' => now(),
                 'updated_at' => now(),
             ],
-            // Kamis
+            
             [
                 'id_jadwal' => 14,
                 'day' => 'Kamis',
-                'subject' => 'Pemograman Berbasis Teks, Grafis, dan Multimedia',
+                'subject' => '♡. Pemograman Berbasis Teks, Grafis, dan Multimedia',
                 'jp' => ' 07.15 - 11.30',
                 'teacher' => 'Ibu Dhian',
                 'created_at' => now(),
@@ -143,7 +142,7 @@ class SchedulesSeeder extends Seeder
             [
                 'id_jadwal' => 15,
                 'day' => 'Kamis',
-                'subject' => 'B. Jerman',
+                'subject' => '♡. B. Jerman',
                 'jp' => '11.30 - 12.10',
                 'teacher' => 'Pak Abdul',
                 'created_at' => now(),
@@ -152,17 +151,16 @@ class SchedulesSeeder extends Seeder
             [
                 'id_jadwal' => 16,
                 'day' => 'Kamis',
-                'subject' => 'B.Inggris',
+                'subject' => '♡ B.Inggris',
                 'jp' => '13.00 - 15.00',
                 'teacher' => 'Mrs. Monica',
                 'created_at' => now(),
                 'updated_at' => now(),
             ],
-            // Jumat (Ditambahkan Pembimbingan Walas)
             [
                 'id_jadwal' => 17,
                 'day' => 'Jumat',
-                'subject' => 'Pembimbingan Walas',
+                'subject' =>'♡. Pembimbingan Walas',
                 'jp' => '06.30 - 07.15',
                 'teacher' => 'Pak Gunawan Busyaeri',
                 'created_at' => now(),
@@ -171,7 +169,7 @@ class SchedulesSeeder extends Seeder
             [
                 'id_jadwal' => 18,
                 'day' => 'Jumat',
-                'subject' => 'Pemograman Web',
+                'subject' => '♡. Pemograman Web',
                 'jp' => '07.15 - 09.15',
                 'teacher' => 'Pak Jumadi',
                 'created_at' => now(),
@@ -180,7 +178,7 @@ class SchedulesSeeder extends Seeder
             [
                 'id_jadwal' => 19,
                 'day' => 'Jumat',
-                'subject' => 'Matematika',
+                'subject' => '♡. Matematika',
                 'jp' => '09.30 - 10.10',
                 'teacher' => 'Pak Acun',
                 'created_at' => now(),
@@ -191,7 +189,7 @@ class SchedulesSeeder extends Seeder
                 'day' => 'Jumat',
                 'subject' => 'Pemograman Web',
                 'jp' => '10.10 - 14.20',
-                'teacher' => 'Pak Jumadi',
+                'teacher' => '♡. Pak Jumadi',
                 'created_at' => now(),
                 'updated_at' => now(),
             ],
