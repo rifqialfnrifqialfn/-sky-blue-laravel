@@ -1,0 +1,192 @@
+/* Import Font Quicksand & Bootstrap Icons */
+@import url('https://cdn.jsdelivr.net/npm/@fontsource/quicksand@5.0.8/index.css');
+@import url('https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css');
+
+/* Background Utama Awan 3D */
+body.sky-theme {
+  font-family: 'Quicksand', sans-serif !important;
+  min-height: 100vh;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url('https://images.unsplash.com/photo-1513002749550-c59d786b8e6c?q=80&w=1920&auto=format&fit=crop') no-repeat center center fixed !important;
+  background-size: cover !important;
+  position: relative;
+  overflow-x: hidden;
+}
+
+/* Overlay Biru Transparan */
+body.sky-theme::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(186, 230, 253, 0.45);
+  backdrop-filter: blur(3px);
+  z-index: 1;
+}
+
+/* Ornamen Melayang (Awan, Kaomoji, Kucing, Kelinci) */
+.bg-float-item {
+  position: absolute;
+  z-index: 1;
+  user-select: none;
+  pointer-events: none;
+  color: rgba(255, 255, 255, 0.95);
+  text-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  animation: floatAnim 6s ease-in-out infinite;
+}
+
+.bg-item-1 { top: 8%; left: 6%; font-size: 2.2rem; }
+.bg-item-2 { top: 18%; right: 8%; font-size: 1.2rem; font-weight: bold; background: rgba(255,255,255,0.3); padding: 5px 12px; border-radius: 20px; }
+.bg-item-3 { bottom: 12%; left: 8%; font-size: 1.2rem; font-weight: bold; background: rgba(255,255,255,0.3); padding: 5px 12px; border-radius: 20px; }
+.bg-item-4 { top: 60%; right: 12%; font-size: 2.8rem; }
+.bg-item-5 { bottom: 20%; right: 6%; font-size: 2.5rem; }
+
+@keyframes floatAnim {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-12px); }
+}
+
+/* Container Kartu Luar (Sky Blue) */
+.sky-card-outer {
+  position: relative;
+  z-index: 2;
+  background-color: #7dc9ec;
+  width: 100%;
+  max-width: 360px;
+  border-radius: 32px;
+  padding: 20px 18px 16px 18px;
+  box-shadow: 0 20px 40px rgba(45, 108, 142, 0.3);
+  border: 2px solid rgba(255, 255, 255, 0.6);
+}
+
+.cute-character-top {
+  position: absolute;
+  top: 38px;
+  left: 20px;
+  background: #ffffff;
+  padding: 2px 8px;
+  border-radius: 50px;
+  font-size: 0.82rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.08);
+  z-index: 5;
+}
+
+.sky-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #1e4d67;
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin-bottom: 22px;
+}
+
+/* Inner Card Putih Soft */
+.sky-card-inner {
+  background: linear-gradient(180deg, #edf7fc 0%, #d8effa 100%);
+  border-radius: 26px;
+  padding: 24px 18px 22px 18px;
+}
+
+.aesthetic-welcome-symbol {
+  text-align: center;
+  color: #386f8d;
+  font-size: 1.05rem;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.sky-title {
+  color: #1a3e54;
+  font-weight: 800;
+  font-size: 1.55rem;
+  text-align: center;
+  margin-bottom: 4px;
+}
+
+.sky-subtitle {
+  color: #618296;
+  font-size: 0.85rem;
+  text-align: center;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+/* Field Input Membulat */
+.custom-input-group {
+  background-color: #ffffff;
+  border-radius: 50px;
+  padding: 4px 16px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 14px;
+  border: 1px solid #e1eff6;
+}
+
+.custom-input-group input {
+  border: none;
+  outline: none;
+  background: transparent;
+  width: 100%;
+  padding: 8px;
+  font-size: 0.88rem;
+}
+
+.toggle-eye {
+  cursor: pointer;
+  color: #a8c3d8;
+}
+
+/* Tombol Sign In Dark Teal */
+.btn-dark-teal {
+  background-color: #0b556a !important;
+  color: #ffffff !important;
+  font-weight: 700;
+  font-size: 0.92rem;
+  border: none;
+  border-radius: 50px !important;
+  padding: 10px;
+  width: 100%;
+  margin-top: 4px;
+  margin-bottom: 12px;
+}
+
+/* Tombol Google */
+.btn-google-pill {
+  background-color: #ffffff;
+  color: #475569;
+  font-weight: 700;
+  font-size: 0.85rem;
+  border: 1px solid #e2e8f0;
+  border-radius: 50px;
+  padding: 9px;
+  width: 100%;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  text-decoration: none;
+}
+
+.sky-footer-links {
+  text-align: center;
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+
+.sky-footer-links a {
+  color: #3b7b9e;
+  text-decoration: none;
+}
+
+.decor-kaomoji-bottom {
+  display: flex;
+  justify-content: space-between;
+  color: #ffffff;
+  font-size: 0.9rem;
+  font-weight: 800;
+  margin-top: 10px;
+}
