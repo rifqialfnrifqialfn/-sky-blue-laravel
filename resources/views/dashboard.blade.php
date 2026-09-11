@@ -7,7 +7,7 @@
   <!-- Header Sambutan -->
   <div class="d-flex justify-content-between align-items-center mb-4 pb-2 border-bottom">
     <div>
-      <h3 class="fw-bold text-dark mb-1">☁️ ˖ ࣪ ᨰꫀᥣᥴ᥆ꩇꫀ! </h3>
+      <h3 class="fw-bold text-dark mb-1">☁️ ˖ ࣪ Welcome! </h3>
       <p class="text-muted mb-0" style="font-size: 0.88rem;">Selamat datang, di dashboard kelompok 2! (˶ᵔ ᵕ ᵔ˶)</p>
     </div>
     <span class="badge bg-info text-white px-3 py-2 rounded-pill shadow-sm" style="font-size: 0.8rem;">PWB - XII RPL 2</span>
